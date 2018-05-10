@@ -2,7 +2,7 @@
 
 #build app
 
-cd /usr/srv/app
+cd /usr/src/app
 
 npm install express-generator -g
 
