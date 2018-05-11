@@ -4,10 +4,10 @@
 
 cd /usr/src/app
 
-npm install express-generator -g
-
 npm install
 
-npm install express-mailer
+bower install
 
-npm start
+grunt build
+
+grunt serve
