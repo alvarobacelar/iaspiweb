@@ -9,7 +9,7 @@ COPY entrypoint.sh /bin/entrypoint.sh
 
 VOLUME ["/usr/src/app"]
 
-EXPOSE 3000
+EXPOSE 8080
 
 ENTRYPOINT ["/bin/entrypoint.sh"]
 

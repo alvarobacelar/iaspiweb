@@ -2,7 +2,7 @@
 
 #build app
 
-cd /usr/src/app
+cd /usr/srv/app
 
 npm install
 
