@@ -1,13 +1,12 @@
 #!/bin/bash
 
 #build app
+cd /usr/src/app
 
-cd /usr/srv/app
+npm install express-generator -g
 
 npm install
 
-bower install
+npm install express-mailer
 
-grunt build
-
-grunt serve
+npm start
